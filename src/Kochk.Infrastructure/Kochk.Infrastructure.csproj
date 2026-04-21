@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="9.0.4"></PackageReference>
+    <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="8.14.0"></PackageReference>
+    <PackageReference Include="StackExchange.Redis" Version="2.9.32"></PackageReference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Kochk.Application\Kochk.Application.csproj"></ProjectReference>
+  </ItemGroup>
+</Project>
