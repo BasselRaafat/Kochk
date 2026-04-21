@@ -1,0 +1,6 @@
+﻿<Solution>
+  <Project Path="src\Kochk.API\Kochk.API.csproj" Type="Classic C#" />
+  <Project Path="src\Kochk.Application\Kochk.Application.csproj" Type="Classic C#" />
+  <Project Path="src\Kochk.Domain\Kochk.Domain.csproj" Type="Classic C#" />
+  <Project Path="src\Kochk.Infrastructure\Kochk.Infrastructure.csproj" Type="Classic C#" />
+</Solution>
